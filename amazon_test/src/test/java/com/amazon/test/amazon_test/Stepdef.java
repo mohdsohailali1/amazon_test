@@ -109,5 +109,6 @@ public class Stepdef {
 		Assert.assertEquals(itemList.get(1), webtextList.get(1));
 
 		driver.close();
+		driver.quit();
 	}
 }
